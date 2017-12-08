@@ -8,6 +8,8 @@
 #include "day4.hpp"
 #include "day5.hpp"
 #include "day6.hpp"
+#include "day7.hpp"
+#include "day8.hpp"
 
 // http://adventofcode.com/
 
@@ -30,7 +32,14 @@ int main()
 //  d5.test();
 
   AoC::day6 d6;
-  d6.test();
+//  d6.test();
+
+  AoC::day7 d7;
+//  d7.test();
+
+  AoC::day8 d8;
+  d8.test();
+
 
   system("pause");
   return 0;

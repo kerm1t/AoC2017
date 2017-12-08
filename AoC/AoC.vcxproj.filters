@@ -39,6 +39,15 @@
     <ClInclude Include="day6.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="day7.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="day8.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

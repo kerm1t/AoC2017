@@ -4,38 +4,14 @@
 #include <fstream>
 #include <vector>
 
-#include <algorithm> // sort
+#include "functions.h"
 
 // Zeit etwa 6:18 bis 6:42
 
 namespace AoC
 {
-  // Tokenizer, https://stackoverflow.com/questions/53849/how-do-i-tokenize-a-string-in-c
-  std::vector<std::string> split(const char *str, char c = ' ')
-  {
-    std::vector<std::string> result;
+  // 7.12.: split() und is_anagram() in functions ausgelagert
 
-    do
-    {
-      const char *begin = str;
-
-      while (*str != c && *str)
-        str++;
-
-      result.push_back(std::string(begin, str));
-    } while (0 != *str++);
-
-    return result;
-  }
-  
-  // https://stackoverflow.com/questions/18267407/check-whether-two-strings-are-anagrams-c
-  bool is_anagram(std::string s1, std::string s2)
-  {
-    std::sort(s1.begin(), s1.end());
-    std::sort(s2.begin(), s2.end());
-    return s1 == s2;
-  }
-  
   // -----------------------------------------
   // Für diesen Tag wäre es einfacher gewesen,
   // Python zu nutzen,
